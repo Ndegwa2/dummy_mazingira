@@ -1,15 +1,14 @@
 import React from 'react';
 import { DollarSign, Users, UserPlus, Package, FileText, Building2 } from 'lucide-react';
 import StatusBanner from './Organisationstatus';
-import DonationStats from './Donation stats';
+import DonationStats from './DonationStats';
 import DonorsList from './DonorsList';
 import BeneficiaryStories from './BeneficiaryStories';
 import InventoryManagement from './DonationInventory';
 
 export default function OrganizationDashboard() {
-
-  const orgStatus = 'approved' as const;
-  const orgName = 'Rainforest Alliance';
+  const orgStatus = 'approved';
+  const orgName = 'WildLIfe Direct';
 
   return (
     <div className="flex-1 p-8 overflow-auto">
