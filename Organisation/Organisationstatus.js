@@ -1,13 +1,7 @@
 import React from 'react';
 import { AlertCircle } from 'lucide-react';
 
-type OrganizationStatus = 'pending' | 'approved' | 'rejected';
-
-interface StatusBannerProps {
-  status: OrganizationStatus;
-}
-
-export default function StatusBanner({ status }: StatusBannerProps) {
+const StatusBanner = ({ status }) => {
   if (status === 'approved') return null;
 
   const statusConfig = {
@@ -15,7 +9,7 @@ export default function StatusBanner({ status }: StatusBannerProps) {
       bgColor: 'bg-yellow-50',
       textColor: 'text-yellow-800',
       borderColor: 'border-yellow-200',
-      message: 'Your organization application is pending approval. We\'ll notify you once it\'s reviewed.'
+      message: "Your organization application is pending approval. We'll notify you once it's reviewed."
     },
     rejected: {
       bgColor: 'bg-red-50',
@@ -35,4 +29,6 @@ export default function StatusBanner({ status }: StatusBannerProps) {
       </div>
     </div>
   );
-}
+};
+
+export default StatusBanner;
