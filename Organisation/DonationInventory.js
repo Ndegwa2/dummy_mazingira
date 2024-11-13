@@ -7,7 +7,7 @@ const inventory = [
     item: 'Tree Saplings',
     quantity: 5000,
     allocated: 3500,
-    beneficiary: 'Local Community A',
+    beneficiary: 'Wajir Local Comunity',
     status: 'In Stock',
   },
   {
@@ -15,7 +15,7 @@ const inventory = [
     item: 'Solar Panels',
     quantity: 200,
     allocated: 150,
-    beneficiary: 'Village B',
+    beneficiary: 'Isinya Women Self-Help',
     status: 'Low Stock',
   },
   {
@@ -23,7 +23,7 @@ const inventory = [
     item: 'Water Filters',
     quantity: 1000,
     allocated: 800,
-    beneficiary: 'Community C',
+    beneficiary: 'Maasai Mara Reserve Community',
     status: 'In Stock',
   },
 ];
