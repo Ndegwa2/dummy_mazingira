@@ -2,16 +2,7 @@ import React from 'react';
 import { Leaf } from 'lucide-react';
 import Card from './OrganisationCard';
 
-
-type OrganizationProps = {
-  name: string;
-  description: string;
-  impact: string;
-  imageUrl: string;
-  category: string;
-};
-
-export default function OrganizationCard({ name, description, impact, imageUrl, category }: OrganizationProps) {
+export default function OrganizationCard({ name, description, impact, imageUrl, category }) {
   return (
     <Card>
       <div className="relative">
@@ -20,7 +11,6 @@ export default function OrganizationCard({ name, description, impact, imageUrl, 
           alt={name}
           className="w-full h-48 object-cover rounded-lg mb-4"
         />
-        
       </div>
       
       <div className="space-y-3">
