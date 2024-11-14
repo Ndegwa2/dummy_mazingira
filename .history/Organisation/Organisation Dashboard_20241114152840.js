@@ -1,5 +1,5 @@
 import React from 'react';
-import { DollarSign, Users, UserPlus, FileText, Building2 } from 'lucide-react';
+import { DollarSign, Users, UserPlus, Package, FileText, Building2 } from 'lucide-react';
 import StatusBanner from './Organisationstatus';
 import DonationStats from './DonationStats';
 import DonorsList from './DonorsList';
@@ -7,17 +7,14 @@ import BeneficiaryStories from './BeneficiaryStories';
 import InventoryManagement from './DonationInventory';
 
 export default function OrganizationDashboard() {
-  const orgStatus = 'approved';  // Organization's status
-  const orgName = 'WildLIfe Direct';  // Organization's name
+  const orgStatus = 'approved';
+  const orgName = 'WildLIfe Direct';
 
   return (
     <div className="flex-1 p-8 overflow-auto">
       <div className="max-w-7xl mx-auto">
-        
-        {/* Status Banner displaying organization status */}
         <StatusBanner status={orgStatus} />
         
-        {/* Header section with organization name and Edit Profile button */}
         <header className="mb-8">
           <div className="flex items-center justify-between">
             <div>
@@ -31,9 +28,7 @@ export default function OrganizationDashboard() {
           </div>
         </header>
 
-        {/* Statistics Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-          {/* Total Donations Card */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
             <div className="flex items-center justify-between mb-4">
               <div className="p-2 bg-green-50 rounded-lg">
@@ -45,7 +40,6 @@ export default function OrganizationDashboard() {
             <p className="text-2xl font-bold text-slate-800">$128,450</p>
           </div>
 
-          {/* Named Donors Card */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
             <div className="flex items-center justify-between mb-4">
               <div className="p-2 bg-blue-50 rounded-lg">
@@ -57,7 +51,6 @@ export default function OrganizationDashboard() {
             <p className="text-2xl font-bold text-slate-800">892</p>
           </div>
 
-          {/* Beneficiaries Card */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
             <div className="flex items-center justify-between mb-4">
               <div className="p-2 bg-purple-50 rounded-lg">
@@ -69,7 +62,6 @@ export default function OrganizationDashboard() {
             <p className="text-2xl font-bold text-slate-800">456</p>
           </div>
 
-          {/* Impact Stories Card */}
           <div className="bg-white rounded-xl p-6 shadow-sm">
             <div className="flex items-center justify-between mb-4">
               <div className="p-2 bg-orange-50 rounded-lg">
@@ -82,7 +74,6 @@ export default function OrganizationDashboard() {
           </div>
         </div>
 
-        {/* Additional Information Sections */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           <DonationStats />
           <DonorsList />
