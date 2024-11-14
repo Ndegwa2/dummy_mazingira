@@ -1,0 +1,165 @@
+
+.width-75 {
+    width: 75%;
+  }
+  
+  .width-35 {
+    width: 35%;
+  }
+  
+  .width-65 {
+    width: 65%;
+  }
+  
+/* Main container */
+.flex-1 {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.max-w-7xl {
+  max-width: 112rem; /* Assuming 7xl is equivalent to around 112rem */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Status Banner */
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #334155; /* slate-800 */
+}
+
+.header p {
+  color: #64748b; /* slate-500 */
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #22c55e; /* green-500 */
+  color: white;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #16a34a; /* green-600 */
+}
+
+/* Card Grid */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: 1fr;
+}
+
+.md\:grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.lg\:grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.lg\:grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Card Styling */
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.card .icon-container {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.card .icon-container-green {
+  background-color: #ecfdf5; /* green-50 */
+}
+
+.card .icon-container-blue {
+  background-color: #eff6ff; /* blue-50 */
+}
+
+.card .icon-container-purple {
+  background-color: #f5f3ff; /* purple-50 */
+}
+
+.card .icon-container-orange {
+  background-color: #fff7ed; /* orange-50 */
+}
+
+.card .icon {
+  color: inherit;
+}
+
+.card h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #64748b; /* slate-500 */
+}
+
+.card p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #334155; /* slate-800 */
+}
+
+.card .percentage {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #22c55e; /* green-500 */
+}
+
+/* Utility classes */
+.text-slate-500 {
+  color: #64748b;
+}
+
+.text-slate-800 {
+  color: #334155;
+}
+
+.text-green-500 {
+  color: #22c55e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
