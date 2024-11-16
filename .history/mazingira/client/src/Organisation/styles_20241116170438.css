@@ -1,0 +1,67 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #198754; /* Green primary color */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo Container */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    height: 40px; /* Adjust height for a smaller logo */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the logo and text (if needed) */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    transition: transform 0.3s;
+  }
+  
+  /* Logo Hover Effect */
+  .logo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white; /* White text for contrast */
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, border-radius 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #145c39; /* Darker shade for hover */
+    border-radius: 5px;
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    color: #ffc107; /* Yellow for the logout button */
+    font-weight: bold;
+  }
+  
+  .logout-btn:hover {
+    color: white;
+    background-color: #dc3545; /* Red for hover */
+    border-radius: 5px;
+  }
+  

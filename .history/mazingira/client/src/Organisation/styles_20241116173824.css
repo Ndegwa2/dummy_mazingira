@@ -1,0 +1,120 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #198754; /* Green primary color */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo Container */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    height: 40px; /* Adjust height for a smaller logo */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the logo and text (if needed) */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    transition: transform 0.3s;
+  }
+  
+  /* Logo Hover Effect */
+  .logo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white; /* White text for contrast */
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, border-radius 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #145c39; /* Darker shade for hover */
+    border-radius: 5px;
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    color: #ffc107; /* Yellow for the logout button */
+    font-weight: bold;
+  }
+  
+  .logout-btn:hover {
+    color: white;
+    background-color: #dc3545; /* Red for hover */
+    border-radius: 5px;
+  }
+  
+  /* Container for Cards */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  }
+  
+  /* Individual Card Styling */
+  .card {
+    background-color: white; /* Clean background for the card */
+    border: 1px solid #198754; /* Matches the theme */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    text-align: center;
+    width: 250px; /* Fixed width for cards */
+    flex: 1; /* Ensures cards scale evenly */
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Card Hover Effect */
+  .card:hover {
+    transform: translateY(-5px); /* Lifts the card slightly */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Logo */
+  .card-logo {
+    font-size: 40px;
+    color: #198754; /* Matches the theme */
+    margin-bottom: 10px;
+  }
+  
+  /* Card Content */
+  .card-content h3 {
+    margin: 0;
+    color: #198754; /* Theme color */
+    font-size: 1.5rem;
+  }
+  
+  .card-content p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333; /* Neutral text color */
+  }
+  /*stats styles deadly deadly*/
+  
